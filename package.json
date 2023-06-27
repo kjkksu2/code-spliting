@@ -1,0 +1,33 @@
+{
+  "name": "code-spliting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build1": "webpack --config webpack/example1/webpack.prod.js",
+    "analyzer1": "webpack --config webpack/example1/webpack.analyze.js",
+    "build2": "webpack --config webpack/example2/webpack.prod.js",
+    "analyzer2": "webpack --config webpack/example2/webpack.analyze.js",
+    "build3": "webpack --config webpack/example3/webpack.prod.js",
+    "analyzer3": "webpack --config webpack/example3/webpack.analyze.js",
+    "build4": "webpack --config webpack/example4/webpack.prod.js",
+    "analyzer4": "webpack --config webpack/example4/webpack.analyze.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "webpack": "^5.88.0",
+    "webpack-bundle-analyzer": "^4.9.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-merge": "^5.9.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "jquery": "^3.7.0",
+    "lodash": "^4.17.21"
+  }
+}
